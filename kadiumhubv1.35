@@ -1,0 +1,643 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local KadiumHub = Instance.new("ScreenGui")
+local Outline = Instance.new("Frame")
+local MAIN = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Kadium = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Info = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local V135 = Instance.new("TextLabel")
+local pfp = Instance.new("ImageLabel")
+local pfp1 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local pfp2 = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local plr = Instance.new("TextLabel")
+local Info_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local FES = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local GUIS = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local FE = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local R = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local BD = Instance.new("TextButton")
+local Frame_6 = Instance.new("Frame")
+local N = Instance.new("TextButton")
+local Frame_7 = Instance.new("Frame")
+local SDD = Instance.new("TextButton")
+local Frame_8 = Instance.new("Frame")
+local A = Instance.new("TextButton")
+local Frame_9 = Instance.new("Frame")
+local VR = Instance.new("TextButton")
+local Frame_10 = Instance.new("Frame")
+local BR = Instance.new("TextButton")
+local Frame_11 = Instance.new("Frame")
+local GUI = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local KL = Instance.new("TextButton")
+local Frame_12 = Instance.new("Frame")
+local KAIL = Instance.new("TextButton")
+local Frame_13 = Instance.new("Frame")
+local KVN = Instance.new("TextButton")
+local Frame_14 = Instance.new("Frame")
+local KVO = Instance.new("TextButton")
+local Frame_15 = Instance.new("Frame")
+local KVNK = Instance.new("TextButton")
+local Frame_16 = Instance.new("Frame")
+local KFOK = Instance.new("TextButton")
+local Frame_17 = Instance.new("Frame")
+local HOME = Instance.new("TextButton")
+local Frame_18 = Instance.new("Frame")
+local REJOIN = Instance.new("TextButton")
+local Frame_19 = Instance.new("Frame")
+
+--Properties:
+
+KadiumHub.Name = "KadiumHub"
+KadiumHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+KadiumHub.Active = true
+KadiumHub.Draggable = true
+
+Outline.Name = "Outline"
+Outline.Parent = KadiumHub
+Outline.BackgroundColor3 = Color3.fromRGB(35, 36, 35)
+Outline.Position = UDim2.new(0.0403299779, 0, 0.428842485, 0)
+Outline.Size = UDim2.new(0, 450, 0, 250)
+
+MAIN.Name = "MAIN"
+MAIN.Parent = Outline
+MAIN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MAIN.BorderSizePixel = 0
+MAIN.Position = UDim2.new(0.177777782, 0, 0.0480000004, 0)
+MAIN.Size = UDim2.new(0, 357, 0, 225)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(207, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 80, 80))}
+UIGradient.Rotation = 90
+UIGradient.Parent = MAIN
+
+Kadium.Name = "Kadium"
+Kadium.Parent = MAIN
+Kadium.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Kadium.BorderSizePixel = 0
+Kadium.Position = UDim2.new(0.148529395, 0, 0.123888887, 0)
+Kadium.Size = UDim2.new(0, 250, 0, 35)
+Kadium.Font = Enum.Font.GothamSemibold
+Kadium.Text = "Kadium Hub"
+Kadium.TextColor3 = Color3.fromRGB(0, 0, 0)
+Kadium.TextScaled = true
+Kadium.TextSize = 14.000
+Kadium.TextWrapped = true
+
+Frame.Parent = Kadium
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.000454467779, 0, 0.993512809, 0)
+Frame.Size = UDim2.new(0, 250, 0, 4)
+
+Info.Name = "Info"
+Info.Parent = MAIN
+Info.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.0168767273, 0, 0.563888907, 0)
+Info.Size = UDim2.new(0, 125, 0, 85)
+Info.Font = Enum.Font.GothamSemibold
+Info.Text = "New Scripts: VR/Sword VR, Body Resize."
+Info.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+Frame_2.Parent = Info
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.000454467779, 0, 0.99351269, 0)
+Frame_2.Size = UDim2.new(0, 125, 0, 4)
+
+V135.Name = "V1.35"
+V135.Parent = MAIN
+V135.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+V135.BackgroundTransparency = 1.000
+V135.BorderSizePixel = 0
+V135.Position = UDim2.new(0.874019682, 0, -0.000555487757, 0)
+V135.Size = UDim2.new(0, 44, 0, 15)
+V135.Font = Enum.Font.GothamSemibold
+V135.Text = "v1.35"
+V135.TextColor3 = Color3.fromRGB(0, 0, 0)
+V135.TextScaled = true
+V135.TextSize = 14.000
+V135.TextWrapped = true
+
+pfp.Name = "pfp"
+pfp.Parent = MAIN
+pfp.BackgroundColor3 = Color3.fromRGB(202, 202, 202)
+pfp.BackgroundTransparency = 1.000
+pfp.BorderColor3 = Color3.fromRGB(89, 109, 202)
+pfp.Position = UDim2.new(0.674021482, 0, 0.539657474, 0)
+pfp.Size = UDim2.new(0, 96, 0, 94)
+pfp.Image = "rbxassetid://3570695787"
+pfp.ImageColor3 = Color3.fromRGB(200, 0, 0)
+pfp.ScaleType = Enum.ScaleType.Slice
+pfp.SliceCenter = Rect.new(100, 100, 100, 100)
+
+pfp1.Name = "pfp1"
+pfp1.Parent = pfp
+pfp1.BackgroundColor3 = Color3.fromRGB(93, 0, 0)
+pfp1.Position = UDim2.new(0.0829999968, 0, 0.0829999968, 0)
+pfp1.Size = UDim2.new(0, 80, 0, 80)
+
+UICorner.CornerRadius = UDim.new(0, 50)
+UICorner.Parent = pfp1
+
+pfp2.Name = "pfp2"
+pfp2.Parent = pfp1
+pfp2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pfp2.BackgroundTransparency = 1.000
+pfp2.Position = UDim2.new(-0.00836706161, 0, -0.0173077099, 0)
+pfp2.Size = UDim2.new(0, 81, 0, 81)
+pfp2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_2.CornerRadius = UDim.new(0, 50)
+UICorner_2.Parent = pfp2
+
+plr.Name = "plr"
+plr.Parent = MAIN
+plr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+plr.BackgroundTransparency = 1.000
+plr.Position = UDim2.new(0.674021482, 0, 0.404444456, 0)
+plr.Size = UDim2.new(0, 96, 0, 29)
+plr.Font = Enum.Font.GothamSemibold
+plr.Text = "Sup"
+plr.TextColor3 = Color3.fromRGB(0, 0, 0)
+plr.TextScaled = true
+plr.TextSize = 16.000
+plr.TextWrapped = true
+
+Info_2.Name = "Info"
+Info_2.Parent = MAIN
+Info_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Info_2.BorderSizePixel = 0
+Info_2.Position = UDim2.new(0.0168767329, 0, 0.479444444, 0)
+Info_2.Size = UDim2.new(0, 125, 0, 19)
+Info_2.Font = Enum.Font.GothamSemibold
+Info_2.Text = "LOG:"
+Info_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_2.TextScaled = true
+Info_2.TextSize = 14.000
+Info_2.TextWrapped = true
+
+UICorner_3.Parent = Outline
+
+FES.Name = "FES"
+FES.Parent = Outline
+FES.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+FES.BorderSizePixel = 0
+FES.Position = UDim2.new(0.0199999996, 0, 0.0480000004, 0)
+FES.Size = UDim2.new(0, 60, 0, 50)
+FES.Font = Enum.Font.GothamSemibold
+FES.Text = "Fe Scripts"
+FES.TextColor3 = Color3.fromRGB(0, 0, 0)
+FES.TextSize = 14.000
+FES.TextWrapped = true
+
+Frame_3.Parent = FES
+Frame_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-0.000454457593, 0, 0.993512571, 0)
+Frame_3.Size = UDim2.new(0, 60, 0, 4)
+
+GUIS.Name = "GUIS"
+GUIS.Parent = Outline
+GUIS.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+GUIS.BorderSizePixel = 0
+GUIS.Position = UDim2.new(0.0199999996, 0, 0.300000012, 0)
+GUIS.Size = UDim2.new(0, 60, 0, 50)
+GUIS.Font = Enum.Font.GothamSemibold
+GUIS.Text = "Guis"
+GUIS.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUIS.TextSize = 14.000
+GUIS.TextWrapped = true
+
+Frame_4.Parent = GUIS
+Frame_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(-0.000454457593, 0, 0.993512571, 0)
+Frame_4.Size = UDim2.new(0, 60, 0, 4)
+
+FE.Name = "FE"
+FE.Parent = Outline
+FE.Active = true
+FE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FE.BorderSizePixel = 0
+FE.Position = UDim2.new(0.175555557, 0, 0.0560000017, 0)
+FE.Size = UDim2.new(0, 357, 0, 225)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(207, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 80, 80))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = FE
+
+ScrollingFrame.Parent = FE
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.234756261, 0, 0.0242222771, 0)
+ScrollingFrame.Size = UDim2.new(0, 264, 0, 209)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 106)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1.39999998, 0)
+
+R.Name = "R"
+R.Parent = ScrollingFrame
+R.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+R.BorderSizePixel = 0
+R.Position = UDim2.new(0.131575763, 0, 0.0160740763, 0)
+R.Size = UDim2.new(0, 200, 0, 38)
+R.Font = Enum.Font.GothamSemibold
+R.Text = "Reanim"
+R.TextColor3 = Color3.fromRGB(0, 0, 0)
+R.TextSize = 14.000
+R.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://pastebin.com/raw/pQ2RczQj", true))()
+end)
+
+Frame_5.Parent = R
+Frame_5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 0.888249457, 0)
+Frame_5.Size = UDim2.new(0, 199, 0, 4)
+
+BD.Name = "BD"
+BD.Parent = ScrollingFrame
+BD.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BD.BorderSizePixel = 0
+BD.Position = UDim2.new(0.130787879, 0, 0.287190497, 0)
+BD.Size = UDim2.new(0, 200, 0, 38)
+BD.Font = Enum.Font.GothamSemibold
+BD.Text = "Beggin Dance"
+BD.TextColor3 = Color3.fromRGB(0, 0, 0)
+BD.TextSize = 14.000
+BD.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/TypicalHub/main/check"))()
+end)
+
+Frame_6.Parent = BD
+Frame_6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(-0.000454545021, 0, 0.993512571, 0)
+Frame_6.Size = UDim2.new(0, 200, 0, 4)
+
+N.Name = "N"
+N.Parent = ScrollingFrame
+N.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+N.BorderSizePixel = 0
+N.Position = UDim2.new(0.13121213, 0, 0.430910051, 0)
+N.Size = UDim2.new(0, 200, 0, 38)
+N.Font = Enum.Font.GothamSemibold
+N.Text = "Neptunian"
+N.TextColor3 = Color3.fromRGB(0, 0, 0)
+N.TextSize = 14.000
+N.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/typicalhub/main/neptunian.lua"))()
+end)
+
+Frame_7.Parent = N
+Frame_7.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(-0.000454545021, 0, 0.993512571, 0)
+Frame_7.Size = UDim2.new(0, 200, 0, 4)
+
+SDD.Name = "SDD"
+SDD.Parent = ScrollingFrame
+SDD.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SDD.BorderSizePixel = 0
+SDD.Position = UDim2.new(0.128000006, 0, 0.144682541, 0)
+SDD.Size = UDim2.new(0, 200, 0, 38)
+SDD.Font = Enum.Font.GothamSemibold
+SDD.Text = "Shuba Duck Dance"
+SDD.TextColor3 = Color3.fromRGB(0, 0, 0)
+SDD.TextSize = 14.000
+SDD.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/shuba", true))()
+end)
+
+Frame_8.Parent = SDD
+Frame_8.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(-0.000454545021, 0, 0.993512571, 0)
+Frame_8.Size = UDim2.new(0, 200, 0, 4)
+
+A.Name = "A"
+A.Parent = ScrollingFrame
+A.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+A.BorderSizePixel = 0
+A.Position = UDim2.new(0.13121213, 0, 0.576941788, 0)
+A.Size = UDim2.new(0, 200, 0, 38)
+A.Font = Enum.Font.GothamSemibold
+A.Text = "Achromatic"
+A.TextColor3 = Color3.fromRGB(0, 0, 0)
+A.TextSize = 14.000
+A.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mgamingpro/typicalhub/main/achromaticv2.lua"))()
+end)
+
+Frame_9.Parent = A
+Frame_9.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(-0.000454545021, 0, 0.993512571, 0)
+Frame_9.Size = UDim2.new(0, 200, 0, 4)
+
+VR.Name = "VR"
+VR.Parent = ScrollingFrame
+VR.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+VR.BorderSizePixel = 0
+VR.Position = UDim2.new(0.13121213, 0, 0.722973526, 0)
+VR.Size = UDim2.new(0, 200, 0, 38)
+VR.Font = Enum.Font.GothamSemibold
+VR.Text = "Clovr VR/Sword VR"
+VR.TextColor3 = Color3.fromRGB(0, 0, 0)
+VR.TextSize = 14.000
+VR.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/coolers/main/vr%20sword%20blah%20blah"))()
+end)
+
+Frame_10.Parent = VR
+Frame_10.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(-0.000454545021, 0, 0.993512571, 0)
+Frame_10.Size = UDim2.new(0, 200, 0, 4)
+
+BR.Name = "BR"
+BR.Parent = ScrollingFrame
+BR.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BR.BorderSizePixel = 0
+BR.Position = UDim2.new(0.13121213, 0, 0.875354469, 0)
+BR.Size = UDim2.new(0, 200, 0, 38)
+BR.Font = Enum.Font.GothamSemibold
+BR.Text = "Body Resize"
+BR.TextColor3 = Color3.fromRGB(0, 0, 0)
+BR.TextSize = 14.000
+BR.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/coolers/main/resize"))()
+end)
+
+Frame_11.Parent = BR
+Frame_11.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(-0.000454545021, 0, 0.993512571, 0)
+Frame_11.Size = UDim2.new(0, 200, 0, 4)
+
+GUI.Name = "GUI"
+GUI.Parent = Outline
+GUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUI.BorderSizePixel = 0
+GUI.Position = UDim2.new(0.175555557, 0, 0.0560000017, 0)
+GUI.Size = UDim2.new(0, 357, 0, 225)
+GUI.Visible = false
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(207, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 80, 80))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = GUI
+
+KL.Name = "KL"
+KL.Parent = GUI
+KL.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KL.BorderSizePixel = 0
+KL.Position = UDim2.new(0.0188642666, 0, 0.0557150617, 0)
+KL.Size = UDim2.new(0, 90, 0, 90)
+KL.Font = Enum.Font.GothamSemibold
+KL.Text = "Kadium Library"
+KL.TextColor3 = Color3.fromRGB(0, 0, 0)
+KL.TextScaled = true
+KL.TextSize = 14.000
+KL.TextWrapped = true
+KL.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/kadiumlibrary", true))()
+end)
+
+Frame_12.Parent = KL
+Frame_12.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(-0.000454542373, 0, 0.99351263, 0)
+Frame_12.Size = UDim2.new(0, 90, 0, 4)
+
+KAIL.Name = "KAIL"
+KAIL.Parent = GUI
+KAIL.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KAIL.BorderSizePixel = 0
+KAIL.Position = UDim2.new(0.0188642666, 0, 0.526826203, 0)
+KAIL.Size = UDim2.new(0, 90, 0, 90)
+KAIL.Font = Enum.Font.GothamSemibold
+KAIL.Text = "Kadium Audio ID List"
+KAIL.TextColor3 = Color3.fromRGB(0, 0, 0)
+KAIL.TextScaled = true
+KAIL.TextSize = 14.000
+KAIL.TextWrapped = true
+KAIL.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/kadiumaudioid", true))()
+end)
+
+Frame_13.Parent = KAIL
+Frame_13.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(-0.000454542373, 0, 0.99351263, 0)
+Frame_13.Size = UDim2.new(0, 90, 0, 4)
+
+KVN.Name = "KVN"
+KVN.Parent = GUI
+KVN.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KVN.BorderSizePixel = 0
+KVN.Position = UDim2.new(0.335390896, 0, 0.526826203, 0)
+KVN.Size = UDim2.new(0, 90, 0, 90)
+KVN.Font = Enum.Font.GothamSemibold
+KVN.Text = "Kadium Visualer NEW (Synapse)"
+KVN.TextColor3 = Color3.fromRGB(0, 0, 0)
+KVN.TextScaled = true
+KVN.TextSize = 14.000
+KVN.TextWrapped = true
+KVN.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/kadiumvvis", true))()
+end)
+
+Frame_14.Parent = KVN
+Frame_14.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(-0.000454542373, 0, 0.99351263, 0)
+Frame_14.Size = UDim2.new(0, 90, 0, 4)
+
+KVO.Name = "KVO"
+KVO.Parent = GUI
+KVO.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KVO.BorderSizePixel = 0
+KVO.Position = UDim2.new(0.335390896, 0, 0.0512706414, 0)
+KVO.Size = UDim2.new(0, 90, 0, 90)
+KVO.Font = Enum.Font.GothamSemibold
+KVO.Text = "Kadium Visualer OLD"
+KVO.TextColor3 = Color3.fromRGB(0, 0, 0)
+KVO.TextScaled = true
+KVO.TextSize = 14.000
+KVO.TextWrapped = true
+KVO.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/kadiumvisold", true))()
+end)
+
+Frame_15.Parent = KVO
+Frame_15.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(-0.000454542373, 0, 0.99351263, 0)
+Frame_15.Size = UDim2.new(0, 90, 0, 4)
+
+KVNK.Name = "KVNK"
+KVNK.Parent = GUI
+KVNK.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KVNK.BorderSizePixel = 0
+KVNK.Position = UDim2.new(0.649116397, 0, 0.526826203, 0)
+KVNK.Size = UDim2.new(0, 90, 0, 90)
+KVNK.Font = Enum.Font.GothamSemibold
+KVNK.Text = "Kadium Visualer NEW (KRNL)"
+KVNK.TextColor3 = Color3.fromRGB(0, 0, 0)
+KVNK.TextScaled = true
+KVNK.TextSize = 14.000
+KVNK.TextWrapped = true
+KVNK.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/kadiumviskrnl", true))()
+end)
+
+Frame_16.Parent = KVNK
+Frame_16.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_16.BorderSizePixel = 0
+Frame_16.Position = UDim2.new(-0.000454542373, 0, 0.99351263, 0)
+Frame_16.Size = UDim2.new(0, 90, 0, 4)
+
+KFOK.Name = "KFOK"
+KFOK.Parent = GUI
+KFOK.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KFOK.BorderSizePixel = 0
+KFOK.Position = UDim2.new(0.646315277, 0, 0.055715099, 0)
+KFOK.Size = UDim2.new(0, 90, 0, 90)
+KFOK.Font = Enum.Font.GothamSemibold
+KFOK.Text = "Kadium Visualer OLD (KRNL)"
+KFOK.TextColor3 = Color3.fromRGB(0, 0, 0)
+KFOK.TextScaled = true
+KFOK.TextSize = 14.000
+KFOK.TextWrapped = true
+KFOK.MouseButton1Down:connect(function()   
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekaisbest/cool/main/kadiumvisoldkrnl", true))()
+end)
+
+Frame_17.Parent = KFOK
+Frame_17.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_17.BorderSizePixel = 0
+Frame_17.Position = UDim2.new(-0.000454542373, 0, 0.99351263, 0)
+Frame_17.Size = UDim2.new(0, 90, 0, 4)
+
+HOME.Name = "HOME"
+HOME.Parent = Outline
+HOME.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+HOME.BorderSizePixel = 0
+HOME.Position = UDim2.new(0.0199999996, 0, 0.559000015, 0)
+HOME.Size = UDim2.new(0, 60, 0, 50)
+HOME.Font = Enum.Font.GothamSemibold
+HOME.Text = "Home"
+HOME.TextColor3 = Color3.fromRGB(0, 0, 0)
+HOME.TextSize = 14.000
+HOME.TextWrapped = true
+
+Frame_18.Parent = HOME
+Frame_18.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_18.BorderSizePixel = 0
+Frame_18.Position = UDim2.new(-0.000454457593, 0, 0.993512571, 0)
+Frame_18.Size = UDim2.new(0, 60, 0, 4)
+
+REJOIN.Name = "REJOIN"
+REJOIN.Parent = Outline
+REJOIN.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+REJOIN.BorderSizePixel = 0
+REJOIN.Position = UDim2.new(0.0179999992, 0, 0.811999977, 0)
+REJOIN.Size = UDim2.new(0, 60, 0, 30)
+REJOIN.Font = Enum.Font.GothamSemibold
+REJOIN.Text = "Rejoin"
+REJOIN.TextColor3 = Color3.fromRGB(0, 0, 0)
+REJOIN.TextSize = 14.000
+REJOIN.TextWrapped = true
+
+Frame_19.Parent = REJOIN
+Frame_19.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_19.BorderSizePixel = 0
+Frame_19.Position = UDim2.new(-0.000454457593, 0, 0.993512571, 0)
+Frame_19.Size = UDim2.new(0, 60, 0, 4)
+
+-- Scripts:
+
+local function XBQAR_fake_script() -- pfp2.LocalScript 
+	local script = Instance.new('LocalScript', pfp2)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 81,0, 79)
+end
+coroutine.wrap(XBQAR_fake_script)()
+local function AZCB_fake_script() -- plr.LocalScript 
+	local script = Instance.new('LocalScript', plr)
+
+	script.Parent.Text = "Sup ".. game.Players.LocalPlayer.Name .."!"
+end
+coroutine.wrap(AZCB_fake_script)()
+local function DRYK_fake_script() -- FES.LocalScript 
+	local script = Instance.new('LocalScript', FES)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.FE.Visible= true
+		script.Parent.Parent.GUI.Visible = false
+		script.Parent.Parent.MAIN.Visible = false
+	end)
+end
+coroutine.wrap(DRYK_fake_script)()
+local function EKGN_fake_script() -- GUIS.LocalScript 
+	local script = Instance.new('LocalScript', GUIS)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.FE.Visible= false
+		script.Parent.Parent.GUI.Visible = true
+		script.Parent.Parent.MAIN.Visible = false
+	end)
+end
+coroutine.wrap(EKGN_fake_script)()
+local function EYOBY_fake_script() -- HOME.LocalScript 
+	local script = Instance.new('LocalScript', HOME)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.FE.Visible= false
+		script.Parent.Parent.GUI.Visible = false
+		script.Parent.Parent.MAIN.Visible = true
+	end)
+end
+coroutine.wrap(EYOBY_fake_script)()
+local function CMXC_fake_script() -- REJOIN.LocalScript 
+	local script = Instance.new('LocalScript', REJOIN)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.FE.Visible= false
+		script.Parent.Parent.GUI.Visible = false
+		script.Parent.Parent.MAIN.Visible = true
+	end)
+end
+coroutine.wrap(CMXC_fake_script)()
